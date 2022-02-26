@@ -9,4 +9,21 @@
  body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
     margin: 0;
     padding: 0;
-  }
+    word-break: break-all;
+    box-sizing: border-box;
+}
+ 
+ .FirstView {
+    background-image: url(../images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+ul, ol {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
